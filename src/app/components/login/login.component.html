@@ -1,0 +1,20 @@
+<div class="container bg-green">
+    <form class="example-form" #form="ngForm" (ngSubmit)="accedi(form)">
+        <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" name="email" #email="ngModel" ngModel required>
+        </mat-form-field>
+    
+        <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" name="password" #password="ngModel" ngModel required>
+        </mat-form-field>
+
+        <div id="error" class="none">
+            <p *ngIf="err" class="text-warning">{{err}}</p>
+        </div>
+
+        <button mat-flat-button type="submit" color="primary">Accedi</button>
+        <span>Non sei Registrato? <a [routerLink]="['/register']">Registrati</a> </span>
+    </form>
+</div>

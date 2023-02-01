@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "davide@davide.it",
+      "password": "$2a$10$2FPGbd0cvt..6uUpCY6DUOswpHQy6lBo2mXCj97wH3ftdXiX57.Uu",
+      "name": "Davide",
+      "surname": "Alfonsi",
+      "id": 1
+    }
+  ]
+}
