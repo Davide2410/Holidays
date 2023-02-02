@@ -1,0 +1,172 @@
+// IMPOSTAZIONI PER CATEGORIE
+.zainoSpalla {
+    background-image: url('/assets/img/img-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alone {
+    background-image: url('/assets/img/img-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border {
+    border: 5px solid white;
+}
+
+.none {
+    display: none !important;
+}
+
+h1 {
+    font-style: oblique;
+    color: white;
+}
+// DISABLED CHECKBOX
+::ng-deep .mat-checkbox-inner-container {
+    display: none !important;
+}
+
+
+.frist {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+
+    .example-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .example-margin {
+            margin-right: 10px;
+            height: 120px;
+            width: 150px;
+            color: white;
+            padding: 0px 20px;
+            border-radius: 15px;
+            position: relative;
+            margin-bottom: 10px;
+
+            span {
+                position: absolute;
+                bottom: 25%;
+                right: 25%;
+                background-color: rgb(255, 255, 255, 0.1);
+                border-radius: 10px;
+                padding: 2px;
+            }
+
+        }
+    }
+
+    mat-icon {
+        position: absolute;
+        bottom: -10px;
+        right: 50px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+
+
+
+
+.second {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+
+    .example-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .example-margin {
+            margin-right: 10px;
+            background-color: white;
+            height: 80px;
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+            border-radius: 15px;
+            color: #3F51B5;
+        }
+    }
+
+    #secondPage {
+        position: absolute;
+        bottom: -10px;
+        right: 0px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #backPage {
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.third {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+
+    .example-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .example-margin {
+            margin-right: 10px;
+            background-color: white;
+            height: 80px;
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+            border-radius: 15px;
+            color: #3F51B5;
+        }
+    }
+
+    #thirdPage {
+        position: absolute;
+        bottom: -10px;
+        right: 0px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #backSecond {
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    button {
+        color: white;
+        border: 1px solid white;
+    }
+}
+

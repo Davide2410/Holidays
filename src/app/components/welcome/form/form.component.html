@@ -1,0 +1,52 @@
+<form class="example-form" #choose="ngForm" (ngSubmit)="start(choose)">
+
+    <div class="frist">
+        <h1>Che tipo di viaggio andrai a fare...</h1>
+        <section class="example-section category">
+            <mat-checkbox class="example-margin" *ngFor="let c of categories" name="category" #category="ngModel"
+                ngModel required [ngClass]="{
+                'zainoSpalla' : c == 'Zaino in spalla',
+                'alone' : c == 'Viaggio da solo'
+            }">
+                <span (click)="check()">{{c}}</span>
+            </mat-checkbox>
+        </section>
+        <mat-icon id="onePage" class="none">keyboard_arrow_right</mat-icon>
+    </div>
+
+
+    <div class="second none">
+        <h1>Parti in una stagione...</h1>
+        <section class="example-section season">
+            <mat-checkbox class="example-margin" name="fredda" #fredda="ngModel" ngModel required>
+                <span> Fredda</span></mat-checkbox>
+            <mat-checkbox class="example-margin" name="calda" #calda="ngModel" ngModel required>
+                <span>Calda</span></mat-checkbox>
+        </section>
+        <mat-icon id="secondPage" class="none">keyboard_arrow_right</mat-icon>
+        <mat-icon id="backPage">keyboard_arrow_left</mat-icon>
+    </div>
+
+
+
+
+    <div class="third none">
+        <h1>Per quanti giorni starai fuori....</h1>
+        <section class="example-section days">
+            <mat-checkbox class="example-margin" name="dayLess" #dayLess="ngModel" ngModel required>Meno di 4
+                giorni</mat-checkbox>
+            <mat-checkbox class="example-margin" name="dayMore" #dayMore="ngModel" ngModel required>Più di 4
+                giorni</mat-checkbox>
+        </section>
+        <mat-icon id="thirdPage" class="none">keyboard_arrow_right</mat-icon>
+        <mat-icon id="backSecond">keyboard_arrow_left</mat-icon>
+    </div>
+
+
+
+    <div class="last none">
+        <h1>Perfetto, <br> iniziamo a fare la valigia...</h1>
+        <button mat-stroked-button color="primary">Primary</button>
+    </div>
+
+</form>

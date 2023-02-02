@@ -6,6 +6,929 @@
       "name": "Davide",
       "surname": "Alfonsi",
       "id": 1
+    },
+    {
+      "email": "l@l.it",
+      "password": "$2a$10$F6mubW0OGyXWW2p7TpdWeuWGJ3y8ACfoyCL7jJbWayeVW1PXqnbKu",
+      "name": "Lorenzo",
+      "surname": "Alfonsi",
+      "id": 2
+    },
+    {
+      "email": "linda@l.it",
+      "password": "$2a$10$WPvrYRI2gstnGzthGH7L6un6zO12ZsCH/8y2EhNK/EB8dcdRzU4we",
+      "name": "Linda",
+      "surname": "Tucci",
+      "id": 3
+    },
+    {
+      "email": "luigi@l.it",
+      "password": "$2a$10$5RFsfkJFwjxPAkpH5SvL4uhIV1CgxEpmHTgFWL52CqcYLdwn3cQ.6",
+      "name": "Luigi",
+      "surname": "Luu",
+      "id": 4
+    },
+    {
+      "email": "s@s.it",
+      "password": "$2a$10$EI2DjSXQGD7xbnsXZb8nEOnIa6sh6sKF71iCRTeGecHEnYiB9XCrK",
+      "name": "Stefano",
+      "surname": "Alfonsi",
+      "id": 5
+    }
+  ],
+  "choose": [
+    {
+      "user_id": 2,
+      "category": "Viaggio da solo",
+      "fredda": "",
+      "calda": true,
+      "dayLess": "",
+      "dayMore": true,
+      "id": 2
+    },
+    {
+      "user_id": 3,
+      "category": "Viaggio da solo",
+      "fredda": true,
+      "calda": "",
+      "dayLess": "",
+      "dayMore": true,
+      "id": 3
+    },
+    {
+      "user_id": 4,
+      "category": "Viaggio da solo",
+      "fredda": "",
+      "calda": true,
+      "dayLess": true,
+      "dayMore": "",
+      "id": 4
+    },
+    {
+      "user_id": 5,
+      "category": "Viaggio da solo",
+      "fredda": "",
+      "calda": true,
+      "dayLess": true,
+      "dayMore": "",
+      "id": 5
+    },
+    {
+      "user_id": 1,
+      "category": "Viaggio da solo",
+      "fredda": "",
+      "calda": true,
+      "dayLess": "",
+      "dayMore": true,
+      "id": 6
+    }
+  ],
+  "holidays": [
+    {
+      "id": 1,
+      "category": "Zaino in spalla",
+      "name": "Vestiti",
+      "description": "Mentre si viaggia non occorre seguire tendenze o mode, ma serve essere leggeri,basterà quindi intimo,una felpa,2 paia di pantaloni e qualche maglietta",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 2,
+      "category": "Zaino in spalla",
+      "name": "Vestiti",
+      "description": "Mentre si viaggia non occorre seguire tendenze o mode, ma serve essere leggeri,basterà quindi intimo,una felpa,2 paia di pantaloni e qualche maglietta ed un costume",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 3,
+      "category": "Zaino in spalla",
+      "name": "Vestiti",
+      "description": "Mentre si viaggia non occorre seguire tendenze o mode, ma serve essere leggeri,basterà quindi intimo,una felpa,2 paia di pantaloni e qualche maglietta ed un costume",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 4,
+      "category": "Zaino in spalla",
+      "name": "Vestiti",
+      "description": "Mentre si viaggia non occorre seguire tendenze o mode,basterà quindi intimo,3 felpe,4 paia di pantaloni e qualche maglietta",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 5,
+      "category": "Zaino in spalla",
+      "name": "Scarpe",
+      "description": "Un paio di scarpe da trekking buone, per reggere i km che farai!",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 6,
+      "category": "Zaino in spalla",
+      "name": "Scarpe",
+      "description": "Un paio di scarpe da trekking buone, per reggere i km che farai!",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 7,
+      "category": "Zaino in spalla",
+      "name": "Scarpe",
+      "description": "Un paio di scarpe da trekking buone, per reggere i km che farai!",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 8,
+      "category": "Zaino in spalla",
+      "name": "Scarpe",
+      "description": "Un paio di scarpe da trekking buone, per reggere i km che farai!",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 8,
+      "category": "Zaino in spalla",
+      "name": "Sacco a pelo",
+      "description": "Non sempre troverai dove dormire, un sacco a pelo ti servirà sempre.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 9,
+      "category": "Zaino in spalla",
+      "name": "Sacco a pelo",
+      "description": "Non sempre troverai dove dormire, un sacco a pelo ti servirà sempre.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 10,
+      "category": "Zaino in spalla",
+      "name": "Sacco a pelo",
+      "description": "Non sempre troverai dove dormire, un sacco a pelo ti servirà sempre.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 11,
+      "category": "Zaino in spalla",
+      "name": "Sacco a pelo",
+      "description": "Non sempre troverai dove dormire, un sacco a pelo ti servirà sempre.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 12,
+      "category": "Zaino in spalla",
+      "name": "Asciugamani",
+      "description": "Gli asciugamani in microfibra sono la scelta migliore perchè si asciugano rapidamente e possono diventare veramente piccoli.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 13,
+      "category": "Zaino in spalla",
+      "name": "Asciugamani",
+      "description": "Gli asciugamani in microfibra sono la scelta migliore perchè si asciugano rapidamente e possono diventare veramente piccoli.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 14,
+      "category": "Zaino in spalla",
+      "name": "Asciugamani",
+      "description": "Gli asciugamani in microfibra sono la scelta migliore perchè si asciugano rapidamente e possono diventare veramente piccoli.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 15,
+      "category": "Zaino in spalla",
+      "name": "Asciugamani",
+      "description": "Gli asciugamani in microfibra sono la scelta migliore perchè si asciugano rapidamente e possono diventare veramente piccoli.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 16,
+      "category": "Zaino in spalla",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 17,
+      "category": "Zaino in spalla",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 18,
+      "category": "Zaino in spalla",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 19,
+      "category": "Zaino in spalla",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 20,
+      "category": "Zaino in spalla",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 21,
+      "category": "Zaino in spalla",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 22,
+      "category": "Zaino in spalla",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 23,
+      "category": "Zaino in spalla",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 24,
+      "category": "Zaino in spalla",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 25,
+      "category": "Zaino in spalla",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 26,
+      "category": "Zaino in spalla",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 27,
+      "category": "Zaino in spalla",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 28,
+      "category": "Zaino in spalla",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 29,
+      "category": "Zaino in spalla",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 30,
+      "category": "Zaino in spalla",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 31,
+      "category": "Zaino in spalla",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 32,
+      "category": "Zaino in spalla",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 33,
+      "category": "Zaino in spalla",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 34,
+      "category": "Zaino in spalla",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 35,
+      "category": "Zaino in spalla",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 36,
+      "category": "Viaggio da solo",
+      "name": "Torcia frontale",
+      "description": "Molto pratiche durante le escursioni di più giorni o quando di notte non si ha accesso all’elettricità, ma sono utili a tutti, magari anche solo nel caso in cui la camera dell’hotel sia poco illuminata.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 37,
+      "category": "Viaggio da solo",
+      "name": "Torcia frontale",
+      "description": "Molto pratiche durante le escursioni di più giorni o quando di notte non si ha accesso all’elettricità, ma sono utili a tutti, magari anche solo nel caso in cui la camera dell’hotel sia poco illuminata.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 38,
+      "category": "Viaggio da solo",
+      "name": "Torcia frontale",
+      "description": "Molto pratiche durante le escursioni di più giorni o quando di notte non si ha accesso all’elettricità, ma sono utili a tutti, magari anche solo nel caso in cui la camera dell’hotel sia poco illuminata.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 39,
+      "category": "Viaggio da solo",
+      "name": "Torcia frontale",
+      "description": "Molto pratiche durante le escursioni di più giorni o quando di notte non si ha accesso all’elettricità, ma sono utili a tutti, magari anche solo nel caso in cui la camera dell’hotel sia poco illuminata.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 40,
+      "category": "Viaggio da solo",
+      "name": "Coltellino svizzero",
+      "description": "Utile in innumerevoli occasioni,ricordare però di riporlo nel bagaglio da stiva.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 41,
+      "category": "Viaggio da solo",
+      "name": "Coltellino svizzero",
+      "description": "Utile in innumerevoli occasioni,ricordare però di riporlo nel bagaglio da stiva.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 42,
+      "category": "Viaggio da solo",
+      "name": "Coltellino svizzero",
+      "description": "Utile in innumerevoli occasioni,ricordare però di riporlo nel bagaglio da stiva.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 43,
+      "category": "Viaggio da solo",
+      "name": "Coltellino svizzero",
+      "description": "Utile in innumerevoli occasioni,ricordare però di riporlo nel bagaglio da stiva.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 44,
+      "category": "Viaggio da solo",
+      "name": "Borse di plastica e di tessuto",
+      "description": "Le borse e le buste di plastica, soprattutto con lo zip, possono essere molto utili, evitate se riuscite quelle in plastica.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 45,
+      "category": "Viaggio da solo",
+      "name": "Borse di plastica e di tessuto",
+      "description": "Le borse e le buste di plastica, soprattutto con lo zip, possono essere molto utili, evitate se riuscite quelle in plastica.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 46,
+      "category": "Viaggio da solo",
+      "name": "Borse di plastica e di tessuto",
+      "description": "Le borse e le buste di plastica, soprattutto con lo zip, possono essere molto utili, evitate se riuscite quelle in plastica.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 47,
+      "category": "Viaggio da solo",
+      "name": "Borse di plastica e di tessuto",
+      "description": "Le borse e le buste di plastica, soprattutto con lo zip, possono essere molto utili, evitate se riuscite quelle in plastica.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 48,
+      "category": "Viaggio da solo",
+      "name": "Asciugamano da viaggio",
+      "description": "Molto più spesso di quanto si pensi, gli ostelli non forniscono asciugamani ai propri ospiti.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 49,
+      "category": "Viaggio da solo",
+      "name": "Asciugamano da viaggio",
+      "description": "Molto più spesso di quanto si pensi, gli ostelli non forniscono asciugamani ai propri ospiti.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 50,
+      "category": "Viaggio da solo",
+      "name": "Asciugamano da viaggio",
+      "description": "Molto più spesso di quanto si pensi, gli ostelli non forniscono asciugamani ai propri ospiti.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 51,
+      "category": "Viaggio da solo",
+      "name": "Asciugamano da viaggio",
+      "description": "Molto più spesso di quanto si pensi, gli ostelli non forniscono asciugamani ai propri ospiti.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 52,
+      "category": "Viaggio da solo",
+      "name": "Batteria esterna",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 53,
+      "category": "Viaggio da solo",
+      "name": "Batteria esterna",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 54,
+      "category": "Viaggio da solo",
+      "name": "Batteria esterna",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 55,
+      "category": "Viaggio da solo",
+      "name": "Batteria esterna",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 56,
+      "category": "Viaggio da solo",
+      "name": "Mantella impermeabile/sacco per la spazzatura",
+      "description": "Se la vostra meta non è troppo piovosa, lasciate a casa gli ombrelli e optate per una leggera mantella impermeabile. I sacchi per la spazzatura sono perfetti per proteggere lo zaino dall’acqua.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 57,
+      "category": "Viaggio da solo",
+      "name": "Mantella impermeabile/sacco per la spazzatura",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 58,
+      "category": "Viaggio da solo",
+      "name": "Mantella impermeabile/sacco per la spazzatura",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 59,
+      "category": "Viaggio da solo",
+      "name": "Mantella impermeabile/sacco per la spazzatura",
+      "description": "Molto comoda quando non si ha accesso a una presa di corrente.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 60,
+      "category": "Viaggio da solo",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 61,
+      "category": "Viaggio da solo",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 62,
+      "category": "Viaggio da solo",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 63,
+      "category": "Viaggio da solo",
+      "name": "Medicinali",
+      "description": "In base alle tue esigenze porta i medicinali che più ti serviranno, ma di certo non potranno mancare: antidiarrea, antidolorifici, tachipirina,repellente contro gli insetti.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 64,
+      "category": "Viaggio da solo",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 65,
+      "category": "Viaggio da solo",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 66,
+      "category": "Viaggio da solo",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 67,
+      "category": "Viaggio da solo",
+      "name": "Elettronica",
+      "description": "Ovviamnete avere 2 powerbanck pùò servire, optare per qualche soluzione ecosostenibile, non sempre avrete a disposizione una presa per la corrente.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 68,
+      "category": "Viaggio da solo",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 69,
+      "category": "Viaggio da solo",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 70,
+      "category": "Viaggio da solo",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 71,
+      "category": "Viaggio da solo",
+      "name": "Documenti",
+      "description": "E importantissimo avere sempre tutti i documenti necessari per muoversi all’estero o all'interno dell'Italia",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 72,
+      "category": "Viaggio da solo",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 73,
+      "category": "Viaggio da solo",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 74,
+      "category": "Viaggio da solo",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 75,
+      "category": "Viaggio da solo",
+      "name": "Beauty Case",
+      "description": "Uno spazzolino, dentrificio, salviette umidificate, shampoo e un deodorante potranno bastare...",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 76,
+      "category": "Viaggio da solo",
+      "name": "Infradito",
+      "description": "Utili ad esempio nelle docce in comune o per dare un po’ di sollievo ai piedi dopo una giornata con gli scarponcini da escursionismo.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 77,
+      "category": "Viaggio da solo",
+      "name": "Infradito",
+      "description": "Utili ad esempio nelle docce in comune o per dare un po’ di sollievo ai piedi dopo una giornata con gli scarponcini da escursionismo.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 78,
+      "category": "Viaggio da solo",
+      "name": "Cuscino da viaggio",
+      "description": "Il vostro collo vi ringrazierà!",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 79,
+      "category": "Viaggio da solo",
+      "name": "Cuscino da viaggio",
+      "description": "Il vostro collo vi ringrazierà!",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 80,
+      "category": "Viaggio da solo",
+      "name": "Cuscino da viaggio",
+      "description": "Il vostro collo vi ringrazierà!",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 81,
+      "category": "Viaggio da solo",
+      "name": "Cuscino da viaggio",
+      "description": "Il vostro collo vi ringrazierà!",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 82,
+      "category": "Viaggio da solo",
+      "name": "Carta igienica",
+      "description": "Un rotolo di carta igienica può risultare molto utile, soprattutto se vi trovate in un paese in via di sviluppo.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 83,
+      "category": "Viaggio da solo",
+      "name": "Carta igienica",
+      "description": "Un rotolo di carta igienica può risultare molto utile, soprattutto se vi trovate in un paese in via di sviluppo.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 84,
+      "category": "Viaggio da solo",
+      "name": "Carta igienica",
+      "description": "Un rotolo di carta igienica può risultare molto utile, soprattutto se vi trovate in un paese in via di sviluppo.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 85,
+      "category": "Viaggio da solo",
+      "name": "Carta igienica",
+      "description": "Un rotolo di carta igienica può risultare molto utile, soprattutto se vi trovate in un paese in via di sviluppo.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 86,
+      "category": "Viaggio da solo",
+      "name": "Libro",
+      "description": "Perfetto nei moment di relax, o durante le lunghe attese che vi potranno capitare.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 87,
+      "category": "Viaggio da solo",
+      "name": "Libro",
+      "description": "Perfetto nei moment di relax, o durante le lunghe attese che vi potranno capitare.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 88,
+      "category": "Viaggio da solo",
+      "name": "Libro",
+      "description": "Perfetto nei moment di relax, o durante le lunghe attese che vi potranno capitare.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 89,
+      "category": "Viaggio da solo",
+      "name": "Libro",
+      "description": "Perfetto nei moment di relax, o durante le lunghe attese che vi potranno capitare.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
+    },
+    {
+      "id": 90,
+      "category": "Viaggio da solo",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "fredda": true,
+      "dayLess": true
+    },
+    {
+      "id": 91,
+      "category": "Viaggio da solo",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "fredda": true,
+      "dayMore": true
+    },
+    {
+      "id": 92,
+      "category": "Viaggio da solo",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "calda": true,
+      "dayLess": true
+    },
+    {
+      "id": 93,
+      "category": "Viaggio da solo",
+      "name": "K-Way",
+      "description": "Essenziale, può sempre servire e non occupa molto spazio.",
+      "check": false,
+      "calda": true,
+      "dayMore": true
     }
   ]
 }

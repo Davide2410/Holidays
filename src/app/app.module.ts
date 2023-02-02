@@ -15,13 +15,16 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { LoginComponent } from './components/login/login.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { FormComponent } from './components/welcome/form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     HttpClientModule,
     MatInputModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

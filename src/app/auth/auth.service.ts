@@ -75,5 +75,13 @@ export class AuthService {
     this.autoLogOut(userData)
   }
 
+  // ALL USER
+  allUser(){
+    return this.http.get<Auth[]>(this.path).pipe(catchError(err=>{
+      console.log(err);
+      throw err
+    }))
+  }
+
 
 }
